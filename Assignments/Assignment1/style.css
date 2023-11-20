@@ -1,0 +1,58 @@
+body{
+    border: 2px solid black;
+    width: 55%;
+    margin-left: 20%;
+    padding: 2% 5% 5% 5%;
+}
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 300%;
+}
+.table1{
+    font-size: 25px;
+}
+.table1_td{
+    width: 50%;
+   padding-left: 50px;
+}
+p{
+    font-size:120%;
+}
+.img{
+    text-align: right;
+    padding-right: 5%;
+}
+h2{
+    padding-left: 2%;
+    color:royalblue;
+    margin-bottom: 0%;
+    font-size: 170%;
+}
+hr{
+    color: royalblue;
+    margin-top: 0.5%;
+}
+.para{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ul{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.academic{
+    width: 70%;
+    margin-left: 15%;
+}
+.academic td{
+    padding: 1% 2% 1% 2%;
+    font-size: 120%;
+}
+.declare{
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 180%;
+    width: 90%;
+}
