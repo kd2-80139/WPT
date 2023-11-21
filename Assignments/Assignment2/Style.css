@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size:180%;
+}
+/* .res{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 2% 5% 2% 5% ;
+    width: 100px;
+
+
+} */
+table{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    width: 600px;
+    
+}
+
+input{
+    font-size: 120%;
+    padding: 2%;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+}
+button{
+    font-size: 120%;
+    margin: 2%;
+    border: 1px solid black;
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    color: white;
+}
+.td_res{
+    font-size: 120%;
+    padding: 2%;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div >
+        <h1 style="text-align: center;">Calculator</h1>
+        <script>
+            const time=new Date();
+            var x=time.getHours();
+            if(x>0 && x<12)
+            document.write("Good Morning");
+            else if(x>=12 && x<=16){
+                document.write("Good afternoon");
+            }
+            else{
+                document.write("Good Evening");
+            }
+        </script>
+        <table cellspacing="15px">
+            <tr>
+                <td><p>Enter Number 1 </p></td>
+                <td class="td_field"><input type="number" id="num1" ></td>
+            </tr>
+            <tr>
+                <td><p>Enter Number 2 </p></td>
+                <td class="td_field"><input type="number" id="num2" ></td>
+            </tr>
+            <tr>
+                <td> <p>Result </p></td>
+                <td class="res"> <p id="result" class="td_res" >0000 </p></td>
+            </tr>
+            <tr >
+                <td colspan="2" style="text-align: center;"><button style="background-color: red;" onclick="add()">add</button>
+                    <button style="background-color: yellow;" onclick="sub()">sub</button>
+                    <button style="background-color: green;" onclick="mul()">mul</button>
+                    <button style="background-color: blue;" onclick="div()">div</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
