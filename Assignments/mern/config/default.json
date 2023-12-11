@@ -1,0 +1,8 @@
+{
+    "port":5000,
+    "host":"localhost",
+    "database":"hackathon",
+    "user":"kd2_80139_ujjwal",
+    "password":"manager"
+
+}

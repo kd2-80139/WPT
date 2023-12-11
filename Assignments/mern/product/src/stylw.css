@@ -1,0 +1,9 @@
+.logo{
+    height: 100px;
+    width: 100px;
+ 
+}
+.companyname{
+    display: inline;
+    margin-left: 5%;
+}
